@@ -1,4 +1,6 @@
 console.log("labas");
+//5 uzduotis 
+
 
 function createArr(from, to, limit){
      let max = to;
@@ -31,3 +33,24 @@ function rand(min, max) {
     }
     return arr
 }
+
+//6 uzduotis
+
+function laipsniu(number, laipsnis){
+    let result = 1
+    if(laipsnis === 0){
+        result=1
+    }
+    if(laipsnis<0){
+        number = 1/number;
+        laipsnis =-laipsnis
+    }
+   for(let i=0; i<laipsnis; i++){
+       result *= number
+    }
+    return result
+}
+laipsniu()
+console.log("laipsniu:", laipsniu(5,2))
+
+

@@ -68,19 +68,40 @@ document.getElementById("generuojuRandom").addEventListener("click", ()=>{
     getRandom(max)
 })
 console.log("veikia")
+
+
+// 5. uzduotis
+
+
+console.log("veikia")
+
+
+
+
 // 6. uzduotis
 
-function keliuKvadratu(x,n){
-    return x * x
- let result = x
-    for(let i=x; i<=n;i++){
-       result *= 
-    }
-    return result
+// function keliuKvadratu(x,n){
+//     return x * x
+//  let result = x
+//     for(let i=x; i<=n;i++){
+//        result *= 
+//     }
+//     return result
     
-    x           n-1
-    x*x         n-2
-    x*x*x       n-3
-    x*x*x*x     n-4
-    x*x*x*x*x   n-5
-}
+//     x           n-1
+//     x*x         n-2
+//     x*x*x       n-3
+//     x*x*x*x     n-4
+//     x*x*x*x*x   n-5
+// }
+
+// 7. uzduotis
+
+
+
+// function embedInH1(parametrasText){
+// document.getElementById("textH1").innerHTML = `<h1>${parametrasText}</h1>`
+// }
+// let iterpiamasTekstas = "mjcbjsdbcs dnvakjbvh bwehbckjbehwbcje dn"
+// // embedInH1(iterpiamasTekstas)
+// console.log("test:", embedInH1(iterpiamasTekstas))

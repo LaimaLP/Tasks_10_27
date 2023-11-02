@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "script":"nodemon ./scipt.js",
+
+    "uzduotys":"nodemon ./uzd/uzduotys.js",
+    "script":"nodemon ./uzd/script.js",
+    "penkta":"nodemon ./uzd/penkta.js",
+   
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

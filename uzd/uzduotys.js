@@ -68,22 +68,3 @@ function tikDidesni(){
 }
 tikDidesni()
 
-
-
-// function isPrime(number) {
-//     let result = true;
-//     if (number < 2) {
-//       result = false;
-//     }
-//     for (let i = 2; i < number; i++) {
-//       if (number % i === 0) {
-//         result = false;
-//       }
-//     }
-//     return result;
-//   }
-  
-//   const number2 = 8;
-//   isPrime(number2);
-//   console.log("ats:", isPrime(-6));
-  
